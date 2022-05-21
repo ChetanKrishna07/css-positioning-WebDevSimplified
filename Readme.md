@@ -2,30 +2,30 @@
 
 ## Static Positioning
 
-- position: static;
+- ``` position: static; ```
 - default position
 
 ## Relative Positioning
 
-- position: relative;
+- ``` position: relative; ```
 - positions relative to original position
 - left, right, top, bottom
 
 ## Absolute Positioning
 
-- position: absolute;
+- ``` position: absolute; ```
 - positions absolutely not related to the document flow
 - left, right, top, bottom
 
 ## Fixed Positioning
 
-- position: fixed;
+- ``` position: fixed; ```
 - postion of the element is fixed in a location, does not move even if scrolled
 - can be used for navigation bar
 
 ## Sticky Positioning
 
-- position: sticky;
+- ``` position: sticky; ```
 - combination of relative and fixed
 - when in the screen, relative position
-- when screen crossed, fixed at the top
+- when screen crossed, fixed in a location
