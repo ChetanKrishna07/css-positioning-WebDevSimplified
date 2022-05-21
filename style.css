@@ -1,0 +1,87 @@
+.parent {
+    background-color: rgb(1, 137, 228);
+    padding: 10px;
+    font-size: 1.5em;
+}
+.child {
+    padding: 10px;
+}
+.child-one {
+    background-color: rgb(42, 152, 42);
+    position: relative;
+}
+.child-two {
+    background-color: rgb(152, 42, 42);
+}
+.child-three {
+    background-color: rgb(152, 42, 137);
+}
+
+/* Relative Positioning */
+
+.parent-relative {
+    position: relative;
+}
+
+.child-one-relative {
+    position: relative;
+    left: 20px;
+    top: 10px;
+    bottom: 4px;
+    z-index: 1;
+}
+
+.child-two-relative {
+    position: relative;
+    right: 5px;
+    z-index: 0;
+}
+
+.child-three-relative {
+    position: relative;
+    top: 15px;
+}
+
+/* Absolute Positioning  */
+
+.parent-absolute {
+    position: absolute;
+}
+
+.child-one-absolute {
+    position: absolute;
+}
+
+.child-two-absolute {
+    position: absolute;
+    left: 100px;
+    top: 0;
+}
+
+.child-three-absolute {
+    position: absolute;
+    left: 200px;
+}
+
+/* Fixed Positioning  */
+
+.element-fixed {
+    position: fixed;
+    background-color: rgb(224, 228, 1);
+    padding: 10px;
+    font-size: 1.5em;
+    top: 20px;
+    left: 200px;
+}
+
+/* Sticky Positioning  */
+
+.parent-sticky {
+    height: 150vh;
+}
+
+.child-one-sticky {
+    position: sticky;
+    top: 10px;
+}
+
